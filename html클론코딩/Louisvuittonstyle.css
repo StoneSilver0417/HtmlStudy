@@ -1,0 +1,72 @@
+nav {
+  padding: 2rem;
+  position:fixed;
+}
+.btn-outline-success{
+  color: chocolate;
+  border-color: chocolate;
+}
+.btn-outline-success:hover{
+  background-color: chocolate;
+  border-color: chocolate;
+  color: white;
+}
+.btn-dark {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+.card:hover{
+  transition: all 0.3s linear;
+  transform: scale(1.05)
+}
+footer {
+    background: #19110b;
+    font-size: 14px;
+    color: white;
+}
+.first-line {
+    border-bottom: 1px solid #392d23;
+}
+.col {
+  padding-bottom: 1rem;
+}
+.second-line a {
+  color: white;
+  text-decoration: none;
+}
+.third-line{
+  display: none;
+  border-top: 1px solid #392d23;
+  color: white;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 300;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+}
+@media screen and (max-width:48rem){
+  .first-line{
+    text-align: center;
+  }
+}
+@media screen and (max-width:48rem) {
+  .second-line{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width:48rem){
+  .third-line{
+    display: block;
+  }
+}
+@media screen and (max-width:48rem){
+  .flag{
+    display: none;
+  }
+}
+.flag-img {
+  margin: 0 0.5rem;
+}
